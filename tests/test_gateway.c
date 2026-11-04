@@ -1,4 +1,3 @@
-```c
    #ifdef NDEBUG
    #undef NDEBUG
    #endif
