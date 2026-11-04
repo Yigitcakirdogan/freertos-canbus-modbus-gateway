@@ -1,3 +1,8 @@
+```c
+   #ifdef NDEBUG
+   #undef NDEBUG
+   #endif
+   #include <assert.h>
 /**
  * @file    test_gateway.c
  * @author  Yigit Cakirdogan
